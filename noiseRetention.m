@@ -1,3 +1,8 @@
+% here we're cleaning the noise out of a video of a lymph node
+% this file was created to take the raw image, binarize each frame, and return a video that preserves only the pixels that exist in an adjustable neighborhood in time
+% ex: if radius=1, then a pixel in 'noNoise.mov' exists only if there is a value there one frame before AND one frame after
+
+
 clear all
 close all
 clc
